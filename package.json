@@ -12,13 +12,12 @@
     "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
     "coverage": "npm run db:create:test && npm run pretest && jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
-   "jest": {
-      "testEnvironment": "node",
-      "coveragePathIgnorePatterns": [
-        "/node_modules/"
-      ]
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gdelv/express-api-ci.git"
