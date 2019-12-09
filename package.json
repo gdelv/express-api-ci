@@ -31,6 +31,7 @@
   "homepage": "https://github.com/gdelv/express-api-ci#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "coveralls": "^3.0.9",
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "morgan": "^1.9.1",
@@ -40,7 +41,6 @@
     "travis": "^0.1.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.9",
     "cross-env": "^6.0.3",
     "jest": "^24.9.0",
     "mocha-lcov-reporter": "^1.3.0",
